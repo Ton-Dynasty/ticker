@@ -50,6 +50,8 @@ Farming TIC tokens from TIC TON oracle with no risk & effort.
 
 8. Copy `.env.example` to a `.env` file and fill in the required fields
 
+    Hint: get ton center api key from [telegram bot](https://t.me/tonapibot)
+
     ```bash
     cp .env.example .env
     ```
