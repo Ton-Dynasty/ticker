@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  redis:
+    image: redis
+    command: redis-server --requirepass ${TICTON_REDIS_PASSWORD} --port ${TICTON_REDIS_PORT}
+    ports:
+      - "${TICTON_REDIS_PORT}:6379"
+    volumes:
+      - ./.volumes/cache:/data
