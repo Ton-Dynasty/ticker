@@ -71,6 +71,7 @@ async def main():
         raw = await redis_client.get("ticker:price")
         if raw is None:
             LOGGER.error("Price is not available")
+            await asyncio.sleep(WAIT_SECONDS_IF_PRICE_OUTDATED)
             continue
 
         response = json.loads(raw)
