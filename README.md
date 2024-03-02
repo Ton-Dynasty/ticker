@@ -16,19 +16,27 @@ Farming TIC tokens from TIC TON oracle with no risk & effort.
     git clone https://github.com/alan890104/ticker.git
     ```
 
-4. Start the docker container
+4. Copy `.env.example` to a `.env` file and fill in the required fields
+
+    Hint: get "TESTNET" ton center api key from [telegram bot](https://t.me/tonapibot)
+
+    ```bash
+    cp .env.example .env
+    ```
+
+5. Start the docker container
 
     ```bash
     docker compose up -d
     ```
 
-5. Create virtual environment
+6. Create virtual environment
 
     ```bash
     python3 -m venv venv
     ```
 
-6. Activate virtual environment
+7. Activate virtual environment
 
     - Windows
 
@@ -42,25 +50,17 @@ Farming TIC tokens from TIC TON oracle with no risk & effort.
         source venv/bin/activate
         ```
 
-7. Install requirements
+8. Install requirements
 
     ```bash
     pip install -r requirements.txt
     ```
 
-8. Copy `.env.example` to a `.env` file and fill in the required fields
-
-    Hint: get "TESTNET" ton center api key from [telegram bot](https://t.me/tonapibot)
-
-    ```bash
-    cp .env.example .env
-    ```
-
 9. Periodically get free TON from [this bot](https://t.me/testgiver_ton_bot)
 
-9. Go to [this app](https://t.me/TicTonOracleBot) and get some free USDT 
+10. Go to [this app](https://t.me/TicTonOracleBot) and get some free USDT 
 
-10.  Run the script
+11.  Run the script
 
     ```bash
     python main.py
