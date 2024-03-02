@@ -1,6 +1,6 @@
 # TICKER 
 
-Farming TIC tokens from TIC TON oracle
+Farming TIC tokens from TIC TON oracle with no risk & effort.
 
 ## Setup
 
@@ -13,7 +13,7 @@ Farming TIC tokens from TIC TON oracle
 3. Clone this repo
 
     ```bash
-    git clone https://
+    git clone https://github.com/alan890104/ticker.git
     ```
 
 4. Start the docker container
