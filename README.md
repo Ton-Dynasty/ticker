@@ -56,7 +56,11 @@ Farming TIC tokens from TIC TON oracle with no risk & effort.
     cp .env.example .env
     ```
 
-9.  Run the script
+9. Periodically get free TON from [this bot](https://t.me/testgiver_ton_bot)
+
+9. Go to [this app](https://t.me/TicTonOracleBot) and get some free USDT 
+
+10.  Run the script
 
     ```bash
     python main.py
